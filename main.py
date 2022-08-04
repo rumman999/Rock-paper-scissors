@@ -44,7 +44,7 @@ while True:
             print("CPU: " + CPU)
             print("You Win!")
 
-    answer = ['yes', 'no']
+    answer = ['yes', 'o']
     play_Again = None
     while play_Again not in answer:
         play_Again = input("Play again? (yes/no): ").lower()
